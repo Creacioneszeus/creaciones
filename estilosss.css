@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#logo  {
+    height: 100px;
+   position: absolute;
+   left: 44%;
+   top: 10%;
+
+}
+#logo1 {
+    background-color: #0f395b;
+    position: relative;
+    top: 0;
+    left: 0%;
+    padding: 2%;
+}
+#logo2 {
+    height: 100px;
+    position: absolute;
+    top: 10%;
+}
+#lupa {
+    height: 50px;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    background-color: #efd228;
+    border: none;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+#buscar {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: #0f395b;
+    padding: 40px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #efd228;
+    color: #0f395b;
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+    padding: 0px 20px;
+}
+nav {
+    font-weight: 600;
+}
+nav a:hover {
+    color: rgb(0, 0, 0)
+}
+
+#imagenes {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 150%;
+    left: 10%;
+    right: 60%;
+}
+#img1 {
+    
+    max-width: 100%;
+   height: auto;
+    margin: auto;
+    position: absolute;
+    left: 15%;
+    top: 0%;
+}
+#img2 {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    left: -5%;
+    top: 31%;
+}
+#img3 {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    right: 20%;
+    top: 90%;
+}
+
+#letras {
+    max-width: 100%;
+   height: auto;
+    font-size: large;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+   right: 50%;
+   flex-direction: column;
+}
+
+#icon {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    top: 80%;
+    left: 57%;
+   right: 20%;
+}
+
+#img5 {
+    max-width: 100%;
+   height: auto;
+    border: 10px solid #efd228 ;
+    border-radius: 10px ;
+    position: absolute;
+    top: 150px;
+}
+
+#cotizar {
+    max-width: 100%;
+   height: auto;
+    background-color: #efd228;
+    border: 5px solid #0f395b;
+    color: #0f395b;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+  }
+
+#what {
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    left: 80px;    
+}
+
+.pie {
+background-color: #efd228;
+background-position: right;
+padding: 80px;
+top: 1200px;
+bottom: 10px;
+}
+#fb {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    top: 30px;
+    left: 1500px;
+}
+#what2 {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    top: 30px;
+    left: 1600px;
+}
+#correo {
+    max-width: 100%;
+   height: auto;
+    position: absolute;
+    top: 30px;
+    left: 1700px;
+}
+
+#port {
+    position: relative;
+    left: 10%;
+    top: 80px;
+}
+#imgm {
+    max-width: 100%;
+   height: 500px;
+    border: 10px solid #efd228 ;
+    border-radius: 10px ;
+    position: absolute;
+    top: 1100px;
+}
+#telef {
+    max-width: 60%;
+    height: auto;
+     font-size: large;
+     position: absolute;
+     top: 1100px;
+     left: 60%;
+    right: 25%;
+}
+#whata {
+    max-width: 100%;
+   height: 100px;
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+}
+#face {
+    max-width: 100%;
+   height: 100px;
+    position: absolute;
+    top: 1400px;
+    left: 1000px;
+}
+#corr {
+    max-width: 100%;
+   height: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+}
+#wapp {
+    max-width: 60%;
+    height: auto;
+     font-size: x-large;
+     position: absolute;
+     top: 1200px;
+     left: 60%;
+    right: 25%;
+}
+#img6 {
+    max-width: 100%;
+   height: auto;
+    border: 10px solid #efd228 ;
+    border-radius: 10px ;
+    position: absolute;
+}
+#tport {
+    max-width: 100%;
+    height: auto;
+     font-size: large;
+     position: absolute;
+     top: 60px;
+     left: 50%;
+    right: 25%;
+}
+
+#tport2 {
+    max-width: 100%;
+    height: auto;
+     font-size: x-large;
+     position: absolute;
+     top: 0px;
+     left: 50%;
+    right: 25%;
+}
+
+#bport {
+    max-width: 100%;
+   height: auto;
+    background-color: #efd228;
+    border: 5px solid #0f395b;
+    color: #0f395b;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    position: absolute;
+    top: 600px;
+    left: 900px;
+    padding: 40px;
+}
+#vport {
+    max-width: 100%;
+   height: auto;
+    background-color: #efd228;
+    border: 5px solid #0f395b;
+    color: #0f395b;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    position: absolute;
+    top: 800px;
+    left: 900px;
+    padding: 40px;
+}
+#gport {
+    max-width: 100%;
+   height: auto;
+    background-color: #efd228;
+    border: 5px solid #0f395b;
+    color: #0f395b;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    padding: 40px;
+}
+#hport {
+    max-width: 100%;
+   height: auto;
+    background-color: #efd228;
+    border: 5px solid #0f395b;
+    color: #0f395b;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 800;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+    padding: 40px;
+}
+#text3 {
+    text-align: center;
+    color: #0f395b;
+}
+#img7 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+#img8 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 500px;
+}
+#img9 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 1060px;
+    top: 50px;
+}
+#carteles {
+    background-color: #0f395b;
+    position: relative;
+padding: 10%  ;
+top: 400px;
+
+}
+#textcar {
+    color: white;
+    font-size: xx-large;
+}
+@media screen and (max-width: 1700px) {
+    .pie{
+        background-position: 50;
+    }
+}
